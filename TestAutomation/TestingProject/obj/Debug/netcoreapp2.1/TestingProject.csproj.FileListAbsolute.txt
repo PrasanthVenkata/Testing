@@ -1,0 +1,16 @@
+C:\USR\PRASANTH\SRIRAMA\MyGit\TestingDevops\TestAutomation\TestingProject\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\USR\PRASANTH\SRIRAMA\MyGit\TestingDevops\TestAutomation\TestingProject\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\USR\PRASANTH\SRIRAMA\MyGit\TestingDevops\TestAutomation\TestingProject\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\USR\PRASANTH\SRIRAMA\MyGit\TestingDevops\TestAutomation\TestingProject\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+C:\USR\PRASANTH\SRIRAMA\MyGit\TestingDevops\TestAutomation\TestingProject\bin\Debug\netcoreapp2.1\TestingProject.deps.json
+C:\USR\PRASANTH\SRIRAMA\MyGit\TestingDevops\TestAutomation\TestingProject\bin\Debug\netcoreapp2.1\TestingProject.runtimeconfig.json
+C:\USR\PRASANTH\SRIRAMA\MyGit\TestingDevops\TestAutomation\TestingProject\bin\Debug\netcoreapp2.1\TestingProject.runtimeconfig.dev.json
+C:\USR\PRASANTH\SRIRAMA\MyGit\TestingDevops\TestAutomation\TestingProject\bin\Debug\netcoreapp2.1\TestingProject.dll
+C:\USR\PRASANTH\SRIRAMA\MyGit\TestingDevops\TestAutomation\TestingProject\bin\Debug\netcoreapp2.1\TestingProject.pdb
+C:\USR\PRASANTH\SRIRAMA\MyGit\TestingDevops\TestAutomation\TestingProject\obj\Debug\netcoreapp2.1\TestingProject.csprojAssemblyReference.cache
+C:\USR\PRASANTH\SRIRAMA\MyGit\TestingDevops\TestAutomation\TestingProject\obj\Debug\netcoreapp2.1\TestingProject.csproj.CoreCompileInputs.cache
+C:\USR\PRASANTH\SRIRAMA\MyGit\TestingDevops\TestAutomation\TestingProject\obj\Debug\netcoreapp2.1\TestingProject.AssemblyInfoInputs.cache
+C:\USR\PRASANTH\SRIRAMA\MyGit\TestingDevops\TestAutomation\TestingProject\obj\Debug\netcoreapp2.1\TestingProject.AssemblyInfo.cs
+C:\USR\PRASANTH\SRIRAMA\MyGit\TestingDevops\TestAutomation\TestingProject\obj\Debug\netcoreapp2.1\TestingProject.dll
+C:\USR\PRASANTH\SRIRAMA\MyGit\TestingDevops\TestAutomation\TestingProject\obj\Debug\netcoreapp2.1\TestingProject.pdb
+C:\USR\PRASANTH\SRIRAMA\MyGit\TestingDevops\TestAutomation\TestingProject\bin\Debug\netcoreapp2.1\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
