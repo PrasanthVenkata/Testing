@@ -38,3 +38,13 @@ steps:
   inputs:
     testResultsFormat: 'VSTest'
     testResultsFiles: '**/TEST-*.trx'
+
+
+- task: DotNetCoreCLI@2
+  displayName: '$(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+  inputs:
+    command: 'publish'
+    publishWebProjects: false
+    projects: '**/*.csproj'
+    arguments: '$(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+    zipAfterPublish: false
