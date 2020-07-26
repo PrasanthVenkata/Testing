@@ -49,4 +49,6 @@ steps:
     publishWebProjects: false
     projects: '**/*.csproj'
     arguments: '$(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
-    zipAfterPublish: false
+    artifactName: Drop1
+
+    
