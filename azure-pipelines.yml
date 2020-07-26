@@ -48,7 +48,7 @@ steps:
     command: 'publish'
     publishWebProjects: false
     projects: '**/*.csproj'
-    arguments: '$(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+    arguments: '$(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     artifactName: Drop1
 
     
