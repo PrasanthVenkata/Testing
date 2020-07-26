@@ -43,7 +43,7 @@ steps:
 
 - task: DotNetCoreCLI@2
   condition: succeededOrFailed()
-  displayName: 'Display name is : $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+  displayName: 'Display name is : $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
   inputs:
     command: 'publish'
     publishWebProjects: false
