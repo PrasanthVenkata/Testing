@@ -38,12 +38,12 @@ steps:
   condition: succeededOrFailed()
   inputs:
     testResultsFormat: 'VSTest'
-    testResultsFiles: '**/TEST-*.trx'
+    testResultsFiles: '**/*.trx'
 
 
 - task: DotNetCoreCLI@2
   condition: succeededOrFailed()
-  displayName: '$(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+  displayName: 'Display name is : $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
   inputs:
     command: 'publish'
     publishWebProjects: false
