@@ -43,12 +43,12 @@ steps:
 
 - task: DotNetCoreCLI@2
   condition: succeededOrFailed()
-  displayName: 'Display name is : $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+  displayName: 'Display name is : $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)\\$(ArtifactsDir)'
   inputs:
     command: 'publish'
     publishWebProjects: false
     projects: '**/*.csproj'
     arguments: '$(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
-    artifactName: Drop1
+
 
     
