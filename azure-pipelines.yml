@@ -38,7 +38,7 @@ steps:
   inputs:
     SourceFolder: $(build.SourceDirectory)
     Contents: '**'
-    TargetFolder: '$(build.ArtifactStagingdirectory)'
+    TargetFolder: $(build.ArtifactStagingdirectory)
 
 
 
