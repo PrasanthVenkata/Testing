@@ -36,7 +36,7 @@ steps:
 - task: CopyFiles@2
   condition: succeededOrFailed()
   inputs:
-    SourceFolder: $(build.SourceDirectory)
+    SourceFolder: $(build.SourcesDirectory)    
     Contents: '**'
     TargetFolder: $(build.ArtifactStagingdirectory)
 
