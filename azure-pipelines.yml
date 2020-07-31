@@ -37,7 +37,7 @@ steps:
   inputs:
     SourceFolder: '$(build.SourceDirectory)'
     Contents: '**'
-    TargetFolder: '$(build.Artifactstagingdirectory)'
+    TargetFolder: '$(build.ArtifactStagingdirectory)'
 
 
 
@@ -50,12 +50,12 @@ steps:
 
 - task: DotNetCoreCLI@2
   condition: succeededOrFailed()
-  displayName: 'Display name is : $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)\\$(ArtifactsDir)'
+  displayName: 'Display name is : $(buildConfiguration) --output $(build.ArtifactStagingDirectory)\\$(ArtifactsDir)'
   inputs:
     command: 'publish'
     publishWebProjects: false
     projects: '**/*.csproj'
-    arguments: '$(buildConfiguration) --output $(Build.ArtifactStagingDirectory)\\$(ArtifactsDir)'
+    arguments: '$(buildConfiguration) --output $(build.ArtifactStagingDirectory)\\$(ArtifactsDir)'
 
 
     
