@@ -33,6 +33,13 @@ steps:
     command: test
     projects: '$(project)'
 
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '$(build.SourceDirectory)'
+    Contents: '**'
+    TargetFolder: '$(build.Artifactstagingdirectory)'
+
+
 
 - task: PublishTestResults@2
   condition: succeededOrFailed()
