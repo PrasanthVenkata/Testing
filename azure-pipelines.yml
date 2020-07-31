@@ -41,21 +41,11 @@ steps:
 
 
 
-- task: PublishTestResults@2
-  condition: succeededOrFailed()
-  inputs:
-    testResultsFormat: 'VSTest'
-    testResultsFiles: '**/*.trx'
 
-
-- task: DotNetCoreCLI@2
-  condition: succeededOrFailed()
-  displayName: 'Display name is : $(buildConfiguration) --output $(build.ArtifactStagingDirectory)\\$(ArtifactsDir)'
+- task: PublishBuildArtifacts@1
   inputs:
-    command: 'publish'
-    publishWebProjects: false
-    projects: '**/*.csproj'
-    arguments: '$(buildConfiguration) --output $(build.ArtifactStagingDirectory)\\$(ArtifactsDir)'
+    pathToPublish: $(Build.ArtifactStagingDirectory)
+    artifactName: MyBuildOutputs
 
 
     
