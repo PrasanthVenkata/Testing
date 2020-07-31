@@ -20,18 +20,18 @@ steps:
 
 - task: NuGetCommand@2
   inputs:
-    restoreSolution: '$(solution)'
+    restoreSolution: $(solution)
 
 - task: VSBuild@1
   inputs:
-    solution: '$(solution)'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+    solution: $(solution)
+    platform: $(buildPlatform)
+    configuration: $(buildConfiguration)
 
 - task: DotNetCoreCLI@2
   inputs:
     command: test
-    projects: '$(project)'
+    projects: $(project)
 
 - task: CopyFiles@2
   condition: succeededOrFailed()
