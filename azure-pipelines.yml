@@ -34,6 +34,7 @@ steps:
     projects: '$(project)'
 
 - task: CopyFiles@2
+  condition: succeededOrFailed()
   inputs:
     SourceFolder: '$(build.SourceDirectory)'
     Contents: '**'
@@ -43,6 +44,7 @@ steps:
 
 
 - task: PublishBuildArtifacts@1
+  condition: succeededOrFailed()
   inputs:
     pathToPublish: $(Build.ArtifactStagingDirectory)
     artifactName: MyBuildOutputs
