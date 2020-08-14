@@ -47,7 +47,7 @@ steps:
   condition: succeededOrFailed()
   inputs:
     pathToPublish: $(Build.ArtifactStagingDirectory)
-    artifactName: MyBuildOutputs
+    artifactName: 'MyBuildOutputs'
 
 
     
